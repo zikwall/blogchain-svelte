@@ -1,0 +1,3 @@
+*.css linguist-language=Svelte
+*.html linguist-language=Svelte
+*.js linguist-language=Svelte
