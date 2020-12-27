@@ -1,5 +1,5 @@
 <script context="module" lang="ts">
-	export async function preload({ params }) {
+	export async function preload() {
 		const res = await this.fetch(`http://localhost:3001/api/v1/contents`);
 		const articles = await res.json();
 
